@@ -1,0 +1,23 @@
+@DotNetCRUD_HostAddress = https://localhost:7007
+
+GET {{DotNetCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DotNetCRUD_HostAddress}}/weatherforecast
+
+###
+
+GET {{DotNetCRUD_HostAddress}}/api/book
+
+###
+
+POST {{DotNetCRUD_HostAddress}}/api/book
+Content-Type: application/json
+
+{
+  //Book
+}
+
+###
